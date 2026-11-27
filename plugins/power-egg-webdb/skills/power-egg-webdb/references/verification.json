@@ -1,0 +1,25 @@
+{
+  "basic_types_generated": 13,
+  "basic_candidate_passed": true,
+  "custom_field_limit_tested": 100,
+  "filters_tested": [
+    "choice equality",
+    "login employee"
+  ],
+  "summaries_tested": [
+    "record count",
+    "numeric sum"
+  ],
+  "negative_checks": [
+    "unsupported-advanced-request",
+    "string-boolean",
+    "unobserved-type",
+    "ignored-option",
+    "tampered-xml-certificate",
+    "output-overwrite"
+  ],
+  "source_originals_validated": 26,
+  "additional_samples_parsed_and_matched": 9,
+  "power_egg_import_tested": false,
+  "powershell_fallback_packaging_tested": true
+}

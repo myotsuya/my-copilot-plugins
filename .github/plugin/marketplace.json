@@ -1,0 +1,14 @@
+{
+  "name": "my-copilot-plugins",
+  "owner": {
+    "name": "Michio Yotsuya"
+  },
+  "plugins": [
+    {
+      "name": "power-egg-webdb",
+      "description": "POWER EGG WebDBの定義ZIP候補を作成・検査します",
+      "version": "0.1.0",
+      "source": "./plugins/power-egg-webdb"
+    }
+  ]
+}

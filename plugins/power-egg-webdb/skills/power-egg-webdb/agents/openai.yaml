@@ -1,0 +1,10 @@
+{
+  "interface": {
+    "display_name": "POWER EGG WebDB作成",
+    "short_description": "仕様とサンプルからDB定義ZIPを作成",
+    "default_prompt": "依頼内容を整理し、同梱仕様とサンプルを基にPOWER EGG WebDBの定義ZIP候補を作成してください。"
+  },
+  "policy": {
+    "allow_implicit_invocation": true
+  }
+}

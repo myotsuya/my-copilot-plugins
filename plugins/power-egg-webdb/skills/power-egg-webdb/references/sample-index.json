@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1,
+    "file": "sample-01.xml",
+    "label": "### サンプル1",
+    "reported_zip": "xdb_exp65.zip",
+    "description": "安否報告DB\r\n災害時などに社員の安否確認に利用します。\r\n社員の状況や出社可否を自宅から直接登録したり、連絡を受けた人が代理で登録し、社員の安否状況を迅速に確認することが可能です。",
+    "database_name": "安否報告DB",
+    "export_version": "3.4",
+    "field_types": [
+      11,
+      20,
+      22,
+      23,
+      51,
+      52,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 15,
+    "detail_fields": 0,
+    "matching_originals": [
+      "xdb_exp65.zip"
+    ],
+    "counts": {
+      "ListView": 3,
+      "ScreenView": 3,
+      "Query": 3,
+      "Summary": 4,
+      "Notice": 1,
+      "SubTableXmlWrapper": 0,
+      "FieldRelation": 1
+    }
+  },
+  {
+    "id": 2,
+    "file": "sample-02.xml",
+    "label": "### サンプル2",
+    "reported_zip": "xdb_exp62.zip",
+    "description": "ソフトウェア管理台帳\r\nソフトウェアの管理に利用します。\r\nまた、ソフトウェア購入申請書と連携し、決裁後の内容をソフトウェア管理台帳（WebDB）に自動で情報を格納します。",
+    "database_name": "ソフトウェア管理台帳",
+    "export_version": "3.2",
+    "field_types": [
+      1,
+      2,
+      5,
+      11,
+      20,
+      22,
+      51,
+      52,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 31,
+    "detail_fields": 0,
+    "matching_originals": [
+      "xdb_exp62.zip"
+    ],
+    "counts": {
+      "ListView": 2,
+      "ScreenView": 2,
+      "Query": 1,
+      "Summary": 0,
+      "Notice": 0,
+      "SubTableXmlWrapper": 0,
+      "FieldRelation": 0
+    }
+  },
+  {
+    "id": 3,
+    "file": "sample-03.xml",
+    "label": "### サンプル3",
+    "reported_zip": "xdb_exp63.zip",
+    "description": "目安箱\r\n職員のアイディアや意見を集める時に利用します。",
+    "database_name": "目安箱",
+    "export_version": "3.2",
+    "field_types": [
+      11,
+      52,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 7,
+    "detail_fields": 0,
+    "matching_originals": [
+      "xdb_exp63.zip"
+    ],
+    "counts": {
+      "ListView": 2,
+      "ScreenView": 4,
+      "Query": 2,
+      "Summary": 0,
+      "Notice": 1,
+      "SubTableXmlWrapper": 0,
+      "FieldRelation": 0
+    }
+  },
+  {
+    "id": 4,
+    "file": "sample-04.xml",
+    "label": "### サンプル4",
+    "reported_zip": "xdb_exp64.zip",
+    "description": "学生就活状況DB\r\n学生の就活状況を管理する時に利用します。",
+    "database_name": "学生就活状況DB",
+    "export_version": "3.2",
+    "field_types": [
+      1,
+      5,
+      6,
+      22,
+      23,
+      63,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 18,
+    "detail_fields": 1,
+    "matching_originals": [
+      "xdb_exp64.zip"
+    ],
+    "counts": {
+      "ListView": 7,
+      "ScreenView": 4,
+      "Query": 3,
+      "Summary": 3,
+      "Notice": 0,
+      "SubTableXmlWrapper": 1,
+      "FieldRelation": 0
+    }
+  },
+  {
+    "id": 5,
+    "file": "sample-05.xml",
+    "label": "### サンプル5",
+    "reported_zip": "xdb_exp1.zip",
+    "description": "クレーム管理\r\nお客さまからの声を、社内へと周知し、対応の進捗を管理します。\r\n店舗やコールセンターにて受付を行ったお客さまからの声を、社内の各担当部門へと周知し、対応の進捗管理が行えます。 受付時に担当者/担当部門を指定することで該当者へ通知が行え、適切なタイミングで必要な情報を伝えることができます。",
+    "database_name": "クレーム管理DB（アパレル業）",
+    "export_version": "2.91",
+    "field_types": [
+      1,
+      2,
+      5,
+      11,
+      20,
+      21,
+      22,
+      23,
+      51,
+      52,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 70,
+    "detail_fields": 0,
+    "matching_originals": [
+      "xdb_exp1.zip"
+    ],
+    "counts": {
+      "ListView": 2,
+      "ScreenView": 3,
+      "Query": 1,
+      "Summary": 0,
+      "Notice": 0,
+      "SubTableXmlWrapper": 0,
+      "FieldRelation": 0
+    }
+  },
+  {
+    "id": 6,
+    "file": "sample-06.xml",
+    "label": "### サンプル6",
+    "reported_zip": "xdb_exp65.zip",
+    "description": "アンケート収集・集計をします。\r\n画像をつけてアンケート配信可能であり、また登録後即集計されるので、集計の手間を削減することが可能です。 集計結果の表示も可能なので、アンケート回答者へ結果のフィードバックも迅速に行えます。",
+    "database_name": "アンケート集計（商品○○○）",
+    "export_version": "2.91",
+    "field_types": [
+      2,
+      5,
+      11,
+      22,
+      23,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 12,
+    "detail_fields": 0,
+    "matching_originals": [
+      "xdb_exp5.zip"
+    ],
+    "counts": {
+      "ListView": 3,
+      "ScreenView": 2,
+      "Query": 4,
+      "Summary": 6,
+      "Notice": 0,
+      "SubTableXmlWrapper": 0,
+      "FieldRelation": 1
+    }
+  },
+  {
+    "id": 7,
+    "file": "sample-07.xml",
+    "label": "### サンプル7",
+    "reported_zip": "xdb_exp16.zip",
+    "description": "資格情報管理台帳\r\n社員が保有している資格情報を管理します。\r\n資格の有効期限を設定しておくことで、期日が近づくと「本人」「上長」といった関係者へ自動的に通知を行う事が可能です。\r\nまた、資格情報の集計表示が可能なので、どの部署にどういった資格をもった社員が何名いるのか？などの情報が簡単に確認できます。",
+    "database_name": "資格情報管理台帳",
+    "export_version": "2.91",
+    "field_types": [
+      1,
+      5,
+      6,
+      31,
+      51,
+      52,
+      56,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 15,
+    "detail_fields": 0,
+    "matching_originals": [
+      "xdb_exp16.zip"
+    ],
+    "counts": {
+      "ListView": 3,
+      "ScreenView": 2,
+      "Query": 2,
+      "Summary": 3,
+      "Notice": 1,
+      "SubTableXmlWrapper": 0,
+      "FieldRelation": 0
+    }
+  },
+  {
+    "id": 8,
+    "file": "sample-08.xml",
+    "label": "### サンプル7",
+    "reported_zip": "xdb_exp46.zip",
+    "description": "在庫管理\r\n\r\n各ロケーションごとの在庫状況を管理します。\r\n販売管理システムより情報を取り込むことで、外出先よりモバイル端末より在庫情報の確認が行えます。 発注点を設けておくことで、購買部門へ発注の督促を自動通知することも可能です。",
+    "database_name": "在庫管理DB",
+    "export_version": "2.91",
+    "field_types": [
+      1,
+      2,
+      12,
+      23,
+      56,
+      63,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 36,
+    "detail_fields": 0,
+    "matching_originals": [
+      "xdb_exp46.zip"
+    ],
+    "counts": {
+      "ListView": 4,
+      "ScreenView": 2,
+      "Query": 4,
+      "Summary": 0,
+      "Notice": 0,
+      "SubTableXmlWrapper": 0,
+      "FieldRelation": 0
+    }
+  },
+  {
+    "id": 9,
+    "file": "sample-09.xml",
+    "label": "### サンプル8",
+    "reported_zip": "xdb_exp58.zip",
+    "description": "設備管理\r\n\r\n設備点検記録を管理します。\r\nラインごとに設置された設備のメンテナンス項目・時期を管理可能であり、設備種別によって異なる検査をもれなく実施可能です。また、期日を設定しておくことで、メンテナンス日が近づくと「担当者」へ自動通知され、メンテナンス漏れを防ぐことも可能です。",
+    "database_name": "設備管理台帳（印刷機）",
+    "export_version": "2.91",
+    "field_types": [
+      1,
+      5,
+      11,
+      21,
+      51,
+      52,
+      56,
+      63,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "parent_fields": 16,
+    "detail_fields": 15,
+    "matching_originals": [
+      "xdb_exp58.zip"
+    ],
+    "counts": {
+      "ListView": 4,
+      "ScreenView": 4,
+      "Query": 2,
+      "Summary": 0,
+      "Notice": 0,
+      "SubTableXmlWrapper": 1,
+      "FieldRelation": 0
+    }
+  }
+]
